@@ -132,11 +132,82 @@ document.write("<h1>" + "Question 8" + "<br>" + "</h1>");
      var selectedCities = cities.slice(2,5);
     document.write("Selected Cities: " + selectedCities);
 
-    
+    // Question 12 
+
+      document.write("<h1>" + "Question 12" + "<br>" + "</h1>");
+
+      var arr = ["This",  "is", "my",  "cat."]; 
+      var joinArray = arr.join(" ");
+      document.write("Original Array: " + arr + "<br>");
+      document.write("String Array: " + joinArray); 
+
+    //   Question 13 
+
+        document.write("<h1>" + "Question 13" + "<br>" + "</h1>");
+
+    var devices = [];
+
+    devices.push("Keyboard");
+    devices.push("mouse");
+    devices.push("Printer");
+    devices.push("Monitor");
+
+   document.write("Devices: " + devices + "<br><br>");
+
+   document.write("Out: " + "<br>");
+   document.write(devices.shift() + "<br>");
+
+   document.write("Out: " + "<br>");
+   document.write(devices.shift() + "<br>");
+
+   document.write("Out: " + "<br>");
+   document.write(devices.shift() + "<br>");
+
+   document.write("Out: " + "<br>");
+   document.write(devices.shift() + "<br>");
+
+//    Question 14 
+ 
+    document.write("<h1>" + "Question 14" + "<br>" + "</h1>");
+ 
+    var devices = [];
+
+    devices.push("Keyboard");
+    devices.push("mouse");
+    devices.push("Printer");
+    devices.push("Monitor");
+
+   document.write("Devices: " + devices + "<br><br>");
+
+   document.write("Out: " + "<br>");
+   document.write(devices.pop() + "<br>");
+
+   document.write("Out: " + "<br>");
+   document.write(devices.pop() + "<br>");
+
+   document.write("Out: " + "<br>");
+   document.write(devices.pop() + "<br>");
+
+   document.write("Out: " + "<br>");
+   document.write(devices.pop() + "<br>");
+
+//    Question 15 
+
+ document.write("<h1>" + "Question 15" + "<br>" + "</h1>");
+
+ var phones = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
 
 
+ document.write("<select>");
 
+ document.write("<option>" + phones[0] + "</option>");
+ document.write("<option>" + phones[1] + "</option>");
+ document.write("<option>" + phones[2] + "</option>");
+ document.write("<option>" + phones[3] + "</option>");
+ document.write("<option>" + phones[4] + "</option>");
+ document.write("<option>" + phones[5] + "</option>");
 
+  document.write("</select>"); 
 
      
 
