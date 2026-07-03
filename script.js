@@ -76,4 +76,73 @@ document.write("<h1>" + "Question 8" + "<br>" + "</h1>");
      percentage2 + "%<br>");
       document.write("Score of "+ std_name[2] + "is: " + score[2] + ".Percentage"+
      percentage3 + "%");
+
+    //  Question 9 
+
+    document.write("<h1>" + "Question 9" + "<br>" + "</h1>");
+
+    var colors = [" Blue", " Green " , " Yellow ", " Pink ", " Red "];
+    document.write("Original Array colors: " + colors + "<br>");
+
+     var addColor = prompt("Which color do you want to add at the biggining");
+      colors.unshift(addColor);
+      document.write("Updated Array: " + colors + "<br>");
+
+    var color = prompt("Which color do you want to add at the end");
+    colors.push(color);
+    document.write("Updated Array: " + colors+ "<br>"  + "<br>");
+
+   colors.unshift("Baby pink", "Navy blue");
+     document.write("Updated Array:  " + colors + "<br>" + "<br>");
+
+     colors.shift("Blue");
+     document.write("Updated Array:  " + colors + "<br>" + "<br>");
+
+     colors.pop("Red");
+     document.write("Updated Array: " + colors + "<br>"+ "<br>");
+
+     var addColorIndex = prompt("At which index you want to add a color");
+
+     colors.splice(  addColorIndex ,0,"dark red");
+     document.write("Updated Array: " + colors +"<br>"+ "<br>");
+
+     var removeColor = prompt("At which index you want to remove the color");
+
+     colors.splice(removeColor,1);
+     document.write("Updated Array: " + colors);
+
+    //  Question 10 
+
+     document.write("<h1>" + "Question 10" + "<br>" + "</h1>");
+
+     var students = [320, 230, 400, 120];
+
+     document.write("Scores of students " + students + "<br>");
+      students.sort();
+     document.write("Ordered score of students " + students);
+
+    //  Question 11 
+    
+    document.write("<h1>" + "Question 11" + "<br>" + "</h1>");
+
+    var cities = ["Karachi", "Lahore", "Islamabad", "Faisalbad" , 
+        "Quetta"];
+    document.write("Cities List: " + cities + "<br>");
+
+     var selectedCities = cities.slice(2,5);
+    document.write("Selected Cities: " + selectedCities);
+
+    
+
+
+
+
+
+     
+
+
+
+
+
+    
  
