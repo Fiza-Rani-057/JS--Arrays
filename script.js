@@ -208,12 +208,3 @@ document.write("<h1>" + "Question 8" + "<br>" + "</h1>");
  document.write("<option>" + phones[5] + "</option>");
 
   document.write("</select>"); 
-
-     
-
-
-
-
-
-    
- 
